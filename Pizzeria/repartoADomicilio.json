@@ -1,0 +1,17 @@
+{
+  "_id": {
+    "$oid": "692216abfd1529c552e581da"
+  },
+  "empleadoId": {
+    "$oid": "69221bf1fd1529c552e581f2"
+  },
+  "pedidoId": {
+    "$oid": "6921d7a0fd1529c552e581c6"
+  },
+  "fecha_hora_entrega": {
+    "$date": "2025-11-27T19:30:00.000Z"
+  },
+  "tiendaId": {
+    "$oid": "69221526fd1529c552e581d4"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": {
+    "$oid": "6921d7a0fd1529c552e581c6"
+  },
+  "fecha_hora_pedido": {
+    "$date": "2025-11-27T19:30:00.000Z"
+  },
+  "tipo_pedido": "en_domicilio",
+  "productos": [
+    {
+      "productoId": {
+        "$oid": "69221c37fd1529c552e581f5"
+      },
+      "cantidad": 2
+    },
+    {
+      "productoId": {
+        "$oid": "69221ccbfd1529c552e581fa"
+      },
+      "cantidad": 1
+    }
+  ],
+  "precio_total": 19,
+  "clienteId": {
+    "$oid": "6921c78efd1529c552e581c0"
+  },
+  "tiendaId": {
+    "$oid": "69221526fd1529c552e581d4"
+  }
+}

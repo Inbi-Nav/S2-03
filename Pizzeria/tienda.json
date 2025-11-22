@@ -1,0 +1,12 @@
+{
+  "_id": {
+    "$oid": "69221526fd1529c552e581d4"
+  },
+  "direccion": "Calle Mayor 54, 3, A",
+  "codigo_postal": "078661",
+  "localidad": "Can Peixauet",
+  "provincia": "barcelona",
+  "pedidoID": {
+    "$oid": "6921d7a0fd1529c552e581c6"
+  }
+}
