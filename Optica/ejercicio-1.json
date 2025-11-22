@@ -1,0 +1,28 @@
+[
+  {
+    "_id": { "$oid": "6921a1f9fd1529c552e58199" },
+    "nombre": "Client Name",
+    "direccion": "Right Street, 123",
+    "telefono": 546872980,
+    "email": "m2305@gmail.com",
+    "fecha_registro": { "$date": "23-09-2023" }
+  },
+  
+  {
+    "_id": { "$oid": "6987p053ed1789c552e5818f" },
+    "clienteId": { "$oid": "6921a1f9fd1529c552e58199" },
+    "marca": "Rayban",
+    "graduacion": {
+      "izquierda": 2.3,
+      "derecha": 2.0
+    },
+    "colorCristal": {
+      "izquierda": "transparente",
+      "derecha": "transparente"
+    },
+    "tipoMontura": "metalica",
+    "precio": 127.0,
+    "fechaCompra": { "$date": "2023-09-23" }
+  }
+
+]
