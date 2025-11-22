@@ -2,14 +2,14 @@
   "_id": {
     "$oid": "6921a054fd1529c552e5818f"
   },
-  "marca": "Opticalia",
+  "marca": "Rayban",
   "graduacion": {
     "izquierda": 1.5,
     "derecha": 1
   },
   "tipoMontura": "metalica",
   "colorMontura": "negro",
-  "colorVidrio": {
+  "colorCristal": {
     "izquierda": "transparente",
     "derecha": "transparente"
   },

@@ -1,39 +1,42 @@
-{
-  "_id": {
-    "$oid": "6921a1f9fd1529c552e58199"
-  },
-  "nombre": "Manuel",
-  "direccion": {
-    "calle": "C/ Mayor",
-    "numero": 15,
-    "ciudad": "Barcelona",
-    "cp": "08025",
-    "pais": "España"
-  },
-  "telefono": 546872980,
-  "correo_electronico": "m2305@gmail.com",
-  "fecha_registro": {
-    "$date": "2024-04-13T00:00:00.000Z"
-  },
-  "recomendadoPor": {
-    "$oid": "6921a37ffd1529c552e581a0"
-  }
-},
-{
-  "_id": {
-    "$oid": "6921a37ffd1529c552e581a0"
-  },
-  "nombre": "Patricia",
-  "direccion": {
-    "calle": "C/ Alcalde",
-    "numero": 48,
-    "ciudad": "Barcelona",
-    "cp": "08785",
-    "pais": "España"
-  },
-  "telefono": 547892146,
-  "correo_electronico": "pat_ri@gmail.com",
-  "fecha_registro": {
-    "$date": "2020-11-22T00:00:00.000Z"
-  }
-}
+[
+    {
+      "_id": {
+        "$oid": "6921a1f9fd1529c552e58199"
+      },
+      "nombre": "Manuel",
+      "direccion": {
+        "calle": "C/ Mayor",
+        "numero": 15,
+        "ciudad": "Barcelona",
+        "cp": "08025",
+        "pais": "España"
+      },
+      "telefono": 546872980,
+      "correo_electronico": "m2305@gmail.com",
+      "fecha_registro": {
+        "$date": "13-04-2024"
+      },
+      "recomendadoPor": {
+        "$oid": "6921a37ffd1529c552e581a0"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "6921a37ffd1529c552e581a0"
+      },
+      "nombre": "Patricia",
+      "direccion": {
+        "calle": "C/ Alcalde",
+        "numero": 48,
+        "ciudad": "Barcelona",
+        "cp": "08785",
+        "pais": "España"
+      },
+      "telefono": 547892146,
+      "correo_electronico": "pat_ri@gmail.com",
+      "fecha_registro": {
+        "$date": "22-11-2020"
+      }
+    }
+
+]
