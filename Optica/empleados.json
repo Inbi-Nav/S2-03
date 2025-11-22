@@ -1,0 +1,9 @@
+{
+  "_id": {
+    "$oid": "6921a2adfd1529c552e5819c"
+  },
+  "nombre": "Laura Flores",
+  "telefono": 345245521,
+  "correo_electronico": "FLaura@gmail.com",
+  "cargo": "vendedora"
+}

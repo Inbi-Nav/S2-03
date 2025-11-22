@@ -1,0 +1,18 @@
+{
+  "_id": {
+    "$oid": "6921a4c0fd1529c552e581a3"
+  },
+  "clienteId": {
+    "$oid": "6921a1f9fd1529c552e58199"
+  },
+  "empleadoId": {
+    "$oid": "6921a2adfd1529c552e5819c"
+  },
+  "gafasdoId": {
+    "$oid": "6921a054fd1529c552e5818f"
+  },
+  "fecha_venta": {
+    "$date": "2024-04-13T00:00:00.000Z"
+  },
+  "precioFinal": 99.97
+}
