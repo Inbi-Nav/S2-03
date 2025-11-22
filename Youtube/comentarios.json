@@ -1,0 +1,15 @@
+{
+  "_id": {
+    "$oid": "69222fbffd1529c552e5823e"
+  },
+  "usuarioId": {
+    "$oid": "69222348fd1529c552e58214"
+  },
+  "videoId": {
+    "$oid": "6922242bfd1529c552e58217"
+  },
+  "texto": "xxxx xxxx xx xxx xxxx!",
+  "fecha_hora": {
+    "$date": "2025-10-10T18:45:00.000Z"
+  }
+}

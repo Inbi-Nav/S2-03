@@ -1,0 +1,53 @@
+[
+    {
+  "_id": {
+    "$oid": "6922242bfd1529c552e58217"
+  },
+  "titulo": "titulo_1",
+  "descripcion": "xxxxx xx xx xxx.",
+  "tamano_mb": 1200,
+  "tipo_archivo_video": "mp4",
+  "thumbnail": "xxxx_xxxx.png",
+  "duracion_segundos": 10000,
+  "fecha_publicacion": {
+    "$date": "2023-12-21T18:00:00.000Z"
+  },
+  "numero_reproducciones": "1000",
+  "numero_likes": "2380",
+  "numero_dislikes": "100",
+  "estado": "publico",
+  "etiquetas": [
+    "bbc",
+    "documental"
+  ],
+  "userId": {
+    "$oid": "69222348fd1529c552e58214"
+  }
+},
+
+{
+  "_id": {
+    "$oid": "69222865fd1529c552e58231"
+  },
+  "titulo": "titulo_2",
+  "descripcion": "xxxxx xxxxx xxxxx xx xx xxx.",
+  "tamano_mb": 1200,
+  "tipo_archivo_video": "mp4",
+  "thumbnail": "xxcc_xx.png",
+  "duracion_segundos": 900,
+  "numero_reproducciones": "20000",
+  "numero_likes": "3200",
+  "numero_dislikes": "140",
+  "estado": "publico",
+  "etiquetas": [
+    "juegos",
+    "gaming"
+  ],
+  "fecha_publicacion": {
+    "$date": "2024-02-01T18:00:00.000Z"
+  },
+  "userId": {
+    "$oid": "69222348fd1529c552e58214"
+  }
+}
+]
