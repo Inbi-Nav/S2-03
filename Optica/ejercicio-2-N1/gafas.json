@@ -1,0 +1,17 @@
+[
+  {
+    "_id": { "$oid": "6921a054fd1529c552e5818f" },
+    "marca": "Rayban",
+    "graduacion": { "izquierda": 1.5, "derecha": 1 },
+    "tipoMontura": "pasta",
+    "colorMontura": "negro",
+    "colorCristal": { "izquierda": "transparente", "derecha": "transparente" },
+    "precio": 99.97,
+    "proveedorId": { "$oid": "69219c94fd1529c552e5817f" },
+
+    "compradoPor": [
+      { "$oid": "6921a1f9fd1529c552e58199" },
+      { "$oid": "64fa00000000000000000102" }
+    ]
+  }
+]
