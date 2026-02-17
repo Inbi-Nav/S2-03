@@ -1,4 +1,4 @@
-# 🗄️ Modelado de Bases de Datos NoSQL – MongoDB
+# Modelado de Bases de Datos NoSQL – MongoDB
 
 Este repositorio contiene el diseño y modelado de bases de datos para distintos escenarios utilizando MongoDB.
 
@@ -6,7 +6,6 @@ Se han desarrollado tres niveles aplicando:
 - Uso de embedding y referencias
 - Adaptación del modelo a la interfaz
 
----
 
 #  Nivel 1 – Óptica 
 
@@ -32,7 +31,7 @@ Se han desarrollado tres niveles aplicando:
 - Empleados (cocinero o repartidor)
 - Registro de entrega con repartidor y fecha
 
-# 🎥 Nivel 3 – Modelo Simplificado de YouTube
+# Nivel 3 – Modelo Simplificado de YouTube
 
 ##  Requisitos principales
 - Usuarios con datos personales
