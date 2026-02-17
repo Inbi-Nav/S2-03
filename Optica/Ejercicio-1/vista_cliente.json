@@ -1,0 +1,69 @@
+{
+  "_id": { "$oid": "6921a1f9fd1529c552e58199" },
+  "nombre": "Manuel",
+
+  "direccion": {
+    "calle": "Right Street",
+    "numero": 123,
+    "ciudad": "Barcelona",
+    "cp": "08001",
+    "pais": "España"
+  },
+
+  "telefono": "678921235",
+  "email": "email@email.com",
+  "fecha_registro": { "$date": "2024-06-01T12:00:00Z" },
+  "recomendado_por": {
+    "cliente_id": { "$oid": "6921a1f9fd1529c552e58198" },
+    "nombre": "Carlos López"
+  },
+
+  "ventas": [
+    {
+      "_id": { "$oid": "6921a4c0fd1529c552e581a3" },
+      "fecha_venta": { "$date": "2023-09-23T10:30:00Z" },
+
+      "empleado": {
+        "empleado_id": { "$oid": "6921a2adfd1529c552e5819c" },
+        "nombre": "Laura Pérez"
+      },
+
+      "gafa": {
+        "gafa_id": { "$oid": "6921a054fd1529c552e5818f" },
+        "marca": "Rayban",
+
+        "graduacion": {
+          "izquierda": 2.3,
+          "derecha": 2.0
+        },
+
+        "tipo_montura": "metalica",
+        "color_montura": "negro",
+
+        "color_cristal": {
+          "izquierda": "transparente",
+          "derecha": "transparente"
+        },
+
+        "precio": 127.0,
+
+        "proveedor": {
+          "proveedor_id": { "$oid": "69219c94fd1529c552e5817f" },
+          "nombre": "Opticalia",
+          "direccion": {
+            "calle": "Av. Santa Rosa",
+            "numero": 53,
+            "piso": 1,
+            "puerta": "A",
+            "ciudad": "Barcelona",
+            "cp": "08716",
+            "pais": "España"
+          },
+          "telefono": "438765109",
+          "fax": "123432335",
+          "nif": "S13456098"
+        }
+      }
+    }
+  ]
+}

@@ -1,22 +1,15 @@
-[
-  {
-    "_id": { "$oid": "6921a1f9fd1529c552e58199" },
-    "nombre": "Manuel",
-    "direccion": "Right Street, 123, Barcelona, España",
-    "telefono": "678921235",
-    "email": "email@email.com",
-    "fecha_registro": { "$date": "2023-09-23" },
 
-    "compras": [
-      {
-        "gafaId": { "$oid": "6987p053ed1789c552e5818f" },
-        "marca": "Rayban",
-        "graduacion": { "izquierda": 2.3, "derecha": 2.0 },
-        "colorCristal": { "izquierda": "transparente", "derecha": "transparente" },
-        "tipoMontura": "metalica",
-        "precio": 127.0,
-        "fechaCompra": { "$date": "2023-09-23" }
-      }
-    ]
-  }
-]
+{
+  "_id": { "$oid": "6921a1f9fd1529c552e58199" },
+  "nombre": "Manuel",
+  "direccion": {
+    "calle": "Right Street",
+    "numero": 123,
+    "ciudad": "Barcelona",
+    "pais": "España"
+  },
+  "telefono": "678921235",
+  "email": "email@email.com",
+  "fecha_registro": { "$date": "2024-06-01T12:00:00Z" },
+  "recomendadoPor": { "$oid": "6921a1f9fd1529c552e58198" }
+}

@@ -1,9 +1,0 @@
-[
-  {
-    "_id": { "$oid": "6921a2adfd1529c552e5819c" },
-    "nombre": "Laura Gómez",
-    "telefono": "612345678",
-    "email": "laura@culdampolla.com",
-    "puesto": "vendedora"
-  }
-]

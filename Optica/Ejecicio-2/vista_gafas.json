@@ -1,0 +1,55 @@
+{
+  "_id": { "$oid": "6921a054fd1529c552e5818f" },
+  "marca": "Rayban",
+
+  "graduacion": {
+    "izquierda": 1.5,
+    "derecha": 1
+  },
+
+  "tipoMontura": "pasta",
+  "colorMontura": "negro",
+
+  "colorCristal": {
+    "izquierda": "transparente",
+    "derecha": "transparente"
+  },
+
+  "precio": 99.97,
+
+  "proveedor": {
+    "proveedor_id": { "$oid": "69219c94fd1529c552e5817f" },
+    "nombre": "Opticalia",
+    "direccion": {
+      "calle": "Av. Santa Rosa",
+      "numero": 53,
+      "piso": 1,
+      "puerta": "A",
+      "ciudad": "Barcelona",
+      "cp": "08716",
+      "pais": "España"
+    },
+    "telefono": "438765109",
+    "fax": "123432335",
+    "nif": "S13456098"
+  },
+
+  "ventas": [
+    {
+      "venta_id": { "$oid": "6921a4c0fd1529c552e581a3" },
+      "fecha_venta": { "$date": "2024-04-13T10:30:00Z" },
+
+      "cliente": {
+        "cliente_id": { "$oid": "6921a1f9fd1529c552e58198" },
+        "nombre": "Manuel"
+      },
+
+      "empleado": {
+        "empleado_id": { "$oid": "6921a2adfd1529c552e5819c" },
+        "nombre": "Laura Gómez"
+      },
+
+      "precioFinal": 99.97
+    }
+  ]
+}
