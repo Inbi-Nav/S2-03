@@ -1,0 +1,8 @@
+{
+  "_id": {"$oid": "69222a51fd1529c552e58235"},
+  "nombre": "Mis favoritos",
+  "fecha_creacion": {"$date": "2025-03-01T00:00:00.000Z"},
+  "estado": "publica",
+  "usuarioId": {"$oid": "6922227cfd1529c552e58212"},
+  "videos":  {"$oid": "69222865fd1529c552e58231"}
+}

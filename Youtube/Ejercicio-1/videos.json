@@ -1,0 +1,23 @@
+
+{
+  "_id": {
+    "$oid": "6922242bfd1529c552e58217"
+  },
+  "titulo": "Playing GTA for the first Time ",
+  "descripcion": "Playing GTA for the first Time in 2023",
+  "tamano_mb": 1200,
+  "tipo_archivo_video": "mp4",
+  "thumbnail": "Vide0-1.png",
+  "duracion_segundos": 10000,
+  "fecha_publicacion": {"$date": "2023-12-21T18:00:00.000Z"},
+  "numero_reproducciones": "1000",
+  "numero_likes": "2380",
+  "numero_dislikes": "100",
+  "estado": "publico",
+  "etiquetas": [
+    "Gaming",
+    "GTA",
+    "Gameplay"
+  ],
+  "userId": {"$oid": "69222348fd1529c552e58214"}
+}
