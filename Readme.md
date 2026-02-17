@@ -6,7 +6,6 @@ Se han desarrollado tres niveles aplicando:
 - Uso de embedding y referencias
 - Adaptación del modelo a la interfaz
 
-
 #  Nivel 1 – Óptica 
 
 ## Requisitos principales
