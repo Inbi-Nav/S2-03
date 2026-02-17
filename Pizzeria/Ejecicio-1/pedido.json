@@ -1,0 +1,64 @@
+{
+  "_id": {"$oid": "6921d7a0fd1529c552e581c6"},
+
+  "fecha_hora_pedido": {"$date": "2025-11-27T19:30:00"},
+  "tipo_pedido": "domicilio", 
+
+  "cliente": {
+    "cliente_id": {"$oid": "6921d7a0fd1529c552e581c7"},
+    "nombre": "Juan",
+    "apellidos": "Pérez Gómez",
+    "direccion": "Calle Mayor 12, 3B",
+    "codigo_postal": "08001",
+    "localidad": "Barcelona",
+    "provincia": "Barcelona",
+    "telefono": "600123456"
+  },
+
+  "tienda": {
+    "tienda_id": {"$oid": "6921d7a0fd1529c552e581c8"},
+    "direccion": "Calle Central 45",
+    "codigo_postal": "08015",
+    "localidad": "Barcelona",
+    "provincia": "Barcelona"
+  },
+
+  "productos": [
+    {
+      "producto_id": {"$oid": "6921d7a0fd1529c552e581c9"},
+      "nombre": "Pizza Vegetal",
+      "descripcion": "Pizza con verduras frescas",
+      "imagen": "pizza_vegetal.png",
+      "precio_unitario": 11.9,
+      "tipo": "pizza",
+      "categoria_pizza": "vegetal",
+      "cantidad": 2
+    },
+    {
+      "producto_id": {"$oid": "6921d7a0fd1529c552e581ca"},
+      "nombre": "Coca-Cola",
+      "descripcion": "Bebida refrescante",
+      "imagen": "cocacola.png",
+      "precio_unitario": 2,
+      "tipo": "bebida",
+      "cantidad": 1
+    }
+  ],
+
+  "precio_total": 25.8,
+
+  "notas": [
+    "Sin cebolla",
+    "Llamar antes de subir"
+  ],
+
+  "entrega": {
+    "repartidor": {
+      "empleado_id": {"$oid": "6921d7a0fd1529c552e581cb"},
+      "nombre": "Carlos",
+      "apellidos": "Martínez López",
+      "telefono": "600987654"
+    },
+    "fecha_hora_entrega": {"$date": "2025-11-27T20:10:00"}
+  }
+}
